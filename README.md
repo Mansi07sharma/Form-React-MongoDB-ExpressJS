@@ -1,12 +1,37 @@
-# React + Vite
+# Form Handling using React, MongoDB, and Express
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p>This project demonstrates how to handle form submissions using React for the frontend, Express.js for the backend, and MongoDB as the database. The application allows users to submit data via a form, which is then stored in MongoDB.</p>
 
-Currently, two official plugins are available:
+## Technologies Used
+<ul>
+<li>Frontend</li>: React.js
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<li>Backend</li>: Node.js, Express.js
 
-## Expanding the ESLint configuration
+<li>Database</li>: MongoDB (via Mongoose ORM)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<li>Other Tools</li>: Vite, Tailwind CSS (for styling), dotenv (for environment variables)
+</ul>
+
+## API Endpoints
+<b>POST</b> /api/form Submit form data
+
+<b>GET</b> /api/forms Retrieve submitted forms
+
+## How It Works
+
+### Backend (Express + MongoDB)
+<ul>
+<li>The backend uses Express.js to handle API requests.</li>
+
+<li>Mongoose is used to interact with MongoDB.</li>
+
+<li>Data validation is performed before storing in the database.</li>
+</ul>
+### Frontend (React.js)
+<ul>
+<li>The frontend contains a simple form that collects user inputs.</li>
+
+<li>Form validation ensures that required fields are filled before submission.</li>
+
+<u>...Ongoing Learning</u>
