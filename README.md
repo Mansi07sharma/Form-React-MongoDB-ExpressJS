@@ -10,7 +10,7 @@
 
 <li>Database: MongoDB (via Mongoose ORM)</li>
 
-<li>Other Tools</li>: Vite, Tailwind CSS (for styling), dotenv (for environment variables)
+<li>Other Tools: Vite, Tailwind CSS (for styling), dotenv (for environment variables)</li>
 </ul>
 
 ## API Endpoints
@@ -35,4 +35,4 @@
 
 <li>Form validation ensures that required fields are filled before submission.</li>
 <br><br>
-<u>...Ongoing Learning</u>
+<i>...Ongoing Learning</i>
