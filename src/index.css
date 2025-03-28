@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.input{
+    @apply  w-2/3 m-auto outline-none focus:shadow focus:shadow-blue-200 p-2
+}
