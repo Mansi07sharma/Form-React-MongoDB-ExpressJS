@@ -4,11 +4,11 @@
 
 ## Technologies Used
 <ul>
-<li>Frontend</li>: React.js
+<li>Frontend:React.js</li>
 
-<li>Backend</li>: Node.js, Express.js
+<li>Backend: Node.js, Express.js</li>
 
-<li>Database</li>: MongoDB (via Mongoose ORM)
+<li>Database: MongoDB (via Mongoose ORM)</li>
 
 <li>Other Tools</li>: Vite, Tailwind CSS (for styling), dotenv (for environment variables)
 </ul>
@@ -28,10 +28,11 @@
 
 <li>Data validation is performed before storing in the database.</li>
 </ul>
+
 ### Frontend (React.js)
 <ul>
 <li>The frontend contains a simple form that collects user inputs.</li>
 
 <li>Form validation ensures that required fields are filled before submission.</li>
-
+<br><br>
 <u>...Ongoing Learning</u>
